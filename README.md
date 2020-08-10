@@ -5,6 +5,7 @@
 - Xcode
 - Visual Studio Code
 - iTerm2
+- SourceTree
 - Homebrew
 - `Meslo LG S DZ Regular for Powerline` font
 - `Meslo LG S Bold for Powerline` font
@@ -47,6 +48,14 @@ Open `iTerm2` and
 
 ```shell
 echo "POWERLEVEL9K_SHORTEN_DIR_LENGTH=1" >> ~/.oh-my-zsh/oh-my-zsh.sh
+```
+
+## Git Settings
+
+```shell
+git config --global user.name "Ali Can Kuştemur"
+git config --global user.email "alican.kustemur@gmail.com"
+git config --global credential.helper osxkeychain
 ```
 
 ## Tweaks
