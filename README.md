@@ -50,6 +50,12 @@ Open `iTerm2` and
 echo "POWERLEVEL9K_SHORTEN_DIR_LENGTH=1" >> ~/.oh-my-zsh/oh-my-zsh.sh
 ```
 
+## Create a SSH Key
+  
+```shell
+ssh-keygen -t rsa
+```
+
 ## Git Settings
 
 ```shell
