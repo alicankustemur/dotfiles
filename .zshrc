@@ -3,7 +3,7 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH="/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
 source ~/.bash_profile
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/alican.kustemur/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -102,4 +102,4 @@ prompt_context() {}
 #unsetopt nomatch
 
 #autoload -U +X bashcompinit && bashcompinit
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
