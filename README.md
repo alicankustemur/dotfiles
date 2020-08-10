@@ -1,4 +1,4 @@
-# my macOS Setup
+# my macOS Customizations
 
 ## Download & Install List
 
