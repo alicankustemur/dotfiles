@@ -7,6 +7,8 @@
 - iTerm2
 - SourceTree
 - Homebrew
+- Zoom
+- Slack
 - `Meslo LG S DZ Regular for Powerline` font
 - `Meslo LG S Bold for Powerline` font
 
@@ -24,9 +26,10 @@ All software installed on the system must be listed in `.Brewfile`. This is
 symlinked at `~/.Brewfile` and used by `brew bundle`.
 
 To install all the software, add it to `.Brewfile` and run:
-
-    brew bundle --global
-
+```
+mv ./Brewfile ~/.Brewfile
+brew bundle --global
+```
 Some stuff will take long, in that case, identify which packages and update
 `.Brewfile` to install them with `args: ['force-bottle']` or do a one-off
 `brew install --force-bottle [pkg]` install.
@@ -93,3 +96,14 @@ Copy `.bash_profile`, `oh-my-zsh.sh` and `.zshrc` to `~/
 ## Installing software manually
 
 - Download LastPass Browser Extensions and mac app
+
+
+# Update .dotfiles
+
+## Creating a Brewfile
+You can dump a Brewfile of your current brew/cask/mas entries into your current directory with
+
+```
+brew bundle dump .
+brew analytics off
+```
