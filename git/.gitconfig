@@ -1,0 +1,17 @@
+[user]
+	name = alicankustemur
+	email = alican.kustemur@gmail.com
+[credential]
+	helper = osxkeychain
+[core]
+	excludesfile = /Users/alican.kustemur/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path =
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = /Users/alican.kustemur/.stCommitMsg
+[diff "sopsdiffer"]
+	textconv = sops -d
