@@ -9,14 +9,20 @@
 - Homebrew
 - Zoom
 - Slack
+- Flux
+- Stats
 - Google Chrome
 - `Meslo LG S DZ Regular for Powerline` font
 - `Meslo LG S Bold for Powerline` font
 
+## OS Settings
+
+Download **Zyxel Wireless USB Adapter** [driver](https://www.tp-link.com/tr/support/download/tl-wn722n/). and install.
+
+
 ## Google Chrome extenions
 
 Open `extensions.html` and download the list of extensions
-
 
 ## vscode Settings
 
