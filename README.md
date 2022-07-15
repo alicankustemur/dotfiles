@@ -11,6 +11,7 @@
 - Slack
 - Flux
 - Stats
+- Clipy
 - Google Chrome
 - `Meslo LG S DZ Regular for Powerline` font
 - `Meslo LG S Bold for Powerline` font
@@ -48,9 +49,14 @@ Some stuff will take long, in that case, identify which packages and update
 
 ## iTerm2 Settings
 
+```
+mv com.googlecode.iterm2.plist ~/Settings/iTerm2/
+```
+
 Open `iTerm2` and
-    `Preferences` -> `Profiles` -> `Other Actions` and click `Import JSON Profiles..`
-    select `my-profile.json`
+    `Preferences` -> `Load Preferences` from `com.googlecode.iterm2.plist` directory.
+
+Restart iTerm2.
 
 ## oh-my-zsh Settings
 
