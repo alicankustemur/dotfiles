@@ -9,6 +9,7 @@
 - Homebrew
 - Zoom
 - Slack
+- Google Chrome
 - `Meslo LG S DZ Regular for Powerline` font
 - `Meslo LG S Bold for Powerline` font
 

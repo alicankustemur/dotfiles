@@ -1,9 +1,10 @@
+
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH="/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
 source ~/.bash_profile
 # Path to your oh-my-zsh installation.
-export ZSH=$HOME/.oh-my-zsh
+export ZSH=/Users/alican.kustemur/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -102,4 +103,25 @@ prompt_context() {}
 #unsetopt nomatch
 
 #autoload -U +X bashcompinit && bashcompinit
+
 source $HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/alican.kustemur/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/alican.kustemur/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/alican.kustemur/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/alican.kustemur/google-cloud-sdk/completion.zsh.inc'; fi
+export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
+
+source <(kubectl completion zsh)
+
+export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
+
+
+source ~/.kube/kommands/.kommands
+
+
+export NVM_DIR="$HOME/.nvm"
+  [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+  [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
