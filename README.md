@@ -12,12 +12,17 @@
 - `Meslo LG S DZ Regular for Powerline` font
 - `Meslo LG S Bold for Powerline` font
 
+## Google Chrome extenions
+
+Open `extensions.html` and download the list of extensions
+
+
 ## vscode Settings
 
 - Install **Settings Sync** extension.
 - Open **Settings Sync** extension, click **"Login with GitHub"** and login GitHub account.
 - Then **"Select Your Existing Gist"** :
-  - vscode.sync (b34669959e4d5d9f89054ec0dfa980a3)
+  - vscode.sync (`ed4f30ee3fc3378a2b61f1a78ed0d122`)
 - Open View -> Command Palette ( Shift + Command + P) and Run **">Sync: Download Settings"**
 
 ## Installing software via Homebrew
