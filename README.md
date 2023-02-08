@@ -33,6 +33,11 @@ Open `extensions.html` and download the list of extensions
   - vscode.sync (`ed4f30ee3fc3378a2b61f1a78ed0d122`)
 - Open View -> Command Palette ( Shift + Command + P) and Run **">Sync: Download Settings"**
 
+### vscode-icons
+
+- Move `vsicons-custom-icons` folder under to `~/`
+
+
 ## Installing software via Homebrew
 
 All software installed on the system must be listed in `.Brewfile`. This is

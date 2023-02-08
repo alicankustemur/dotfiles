@@ -1,0 +1,155 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "sync.gist": "ed4f30ee3fc3378a2b61f1a78ed0d122",
+    "security.workspace.trust.untrustedFiles": "open",
+    // "go.goroot": "/opt/homebrew/opt/go/libexec",
+    "go.testOnSave": false,
+    "go.lintOnSave": "file",
+    "go.formatTool": "goimports",
+    "go.testFlags": ["-v"],
+    "go.autocompleteUnimportedPackages": true,
+    "[go]": {
+      "editor.insertSpaces": false,
+      "editor.formatOnSave": true,
+      "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+      }
+    },
+    "[terraform]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "hashicorp.terraform"
+    },
+    "files.autoSave": "afterDelay",
+    "debug.console.fontSize": 13,
+    "editor.fontSize": 13,
+    "terminal.integrated.fontSize": 14,
+    "redhat.telemetry.enabled": false,
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "[yaml]": {
+      "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "gitlens.codeLens.authors.enabled": false,
+    "gitlens.codeLens.recentChange.enabled": false,
+    "vsicons.customIconFolderPath": "/Users/alicankustemur",
+    "vsicons.associations.files": [
+      { 
+        "icon": "argocd",
+        "filenamesGlob": [
+          "application",
+          "applicationset",
+          "app",
+          "appset",
+        ],
+        "extensionsGlob": 
+        [
+          "yaml",
+          "yml"
+        ],
+        "filename": true,
+        "format": "png",
+      },
+      {
+        "icon": "kubernetes",
+        "filenamesGlob": 
+        [
+          "pod",
+          "service",
+          "daemonset",
+          "deployment",
+          "replicaset",
+          "statefulset",
+          "job",
+          "cronjobs",
+          "secret-provider-class",
+          "patch",
+          "configmap",
+          "secret",
+        ],
+        "extensionsGlob": [
+          "yaml",
+          "yml"
+        ],
+        "format": "png",
+        "filename": true
+      },
+      {
+        "icon": "helm",
+        "filenamesGlob": 
+        [
+          "values",
+        ],
+        "extensionsGlob": [
+          "yaml",
+          "yml"
+        ],
+        "format": "png",
+        "filename": true
+      },
+      {
+        "icon": "kustomize",
+        "filenamesGlob": 
+        [
+          "kustomization"
+        ],
+        "extensionsGlob": [
+          "yaml",
+          "yml"
+        ],
+        "format": "png",
+        "filename": true
+      },
+      {
+        "icon": "hcl",
+        "extensions": [".hcl"],
+        "format": "png",
+      },
+      {
+        "icon": "tfvars",
+        "extensions": [".tfvars"],
+        "format": "png",
+      },
+      {
+        "icon": "tfstate",
+        "extensions": [
+          ".tfstate",
+          ".tfstate.backup"
+        ],
+        "format": "png",
+      },
+      {
+        "icon": "tpl",
+        "extensions": [".tpl"],
+        "format": "png",
+      },
+      {
+        "icon": "conf",
+        "extensions": [".conf"],
+        "format": "jpeg",
+      },
+      {
+        "icon": "linux",
+        "extensions": [
+          ".service",
+          ".timer",
+        ],
+        "format": "png",
+      },
+    ],
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "trunk.trunkGrayOutNonBlockingIssues": false,
+    "go.toolsManagement.autoUpdate": true,
+    "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "files.exclude": {
+      "**/.trunk/*out": true
+    },
+    "files.watcherExclude": {
+      "**/.trunk/*out": true
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "vsicons.projectDetection.autoReload": true,
+  }
