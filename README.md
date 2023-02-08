@@ -140,3 +140,13 @@ You can dump a Brewfile of your current brew/cask/mas entries into your current 
 brew bundle dump .
 brew analytics off
 ```
+
+## yh - YAML Highlighter
+
+```shell
+git clone https://github.com/alicankustemur/yh
+cd yh
+go build .
+mv yh /usr/local/bin/
+```
+
