@@ -1,5 +1,6 @@
 {
   "update.mode": "none",
+  "extensions.autoUpdate": false,
   "workbench.colorTheme": "Default Dark+",
   "terminal.integrated.defaultProfile.osx": "zsh",
   "sync.gist": "ed4f30ee3fc3378a2b61f1a78ed0d122",
