@@ -150,3 +150,18 @@ go build .
 mv yh /usr/local/bin/
 ```
 
+## Terminal Highlighting
+
+```shell
+pip3 install pygments
+alias h='pygmentize -O style=native -g'
+```
+
+![title](images/pygmentize.png)
+
+test
+```
+cat ~/.custom_aliases | h
+```
+
+

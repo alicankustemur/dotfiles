@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# kubectl
+
+# get argocd admin password as raw
+alias argoadm='echo $(kubectl get secret argocd-initial-admin-secret -n argocd -o go-template="{{.data.password | base64decode }}")'
+
+# port-forward argocd with specific port
+alias argopf='function _argoPf(){ echo $(argoadm) && kubectl port-forward svc/argocd-server $1 -n argocd; }; _argoPf'
+
+# remove finalizers
+alias krf='function _removeFinalizer(){ kubectl $@ -o=json  | jq ".metadata.finalizers = null" | kubectl apply -f -; echo "finalizer removed" }; _removeFinalizer'
+
+# highlight kubectl yaml output
+alias ky='function _ky(){ kubectl $@ -o=yaml  | yh }; _ky'
+
+# shortcut
+alias kn='kubens'
+alias kx='kubectx'
+alias t='terraform'
+alias h='pygmentize -O style=native -g'
+
+alias kgas='kubectl get appset'
